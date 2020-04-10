@@ -27,7 +27,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  List<Article> _articles = nipples;
+  List<Article> _articles = articles;
 
   @override
   Widget build(BuildContext context) {
@@ -50,14 +50,14 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Widget _buildItem(Article article) {
-    if (article.text.contains("fuck"))
-      return Container(
-        color: Colors.black54,
-        child: Center(
-          child: Text("Next Topic!",
-              style: TextStyle(fontSize: 28.0, color: Colors.white)),
-        ),
-      );
+    // if (article.text.contains("fuck"))
+    //   return Container(
+    //     color: Colors.black54,
+    //     child: Center(
+    //       child: Text("Next Topic!",
+    //           style: TextStyle(fontSize: 28.0, color: Colors.white)),
+    //     ),
+    //   );
     return Padding(
       key: Key(article.hashCode.toString()),
       padding: const EdgeInsets.all(16.0),
@@ -68,13 +68,15 @@ class _MyHomePageState extends State<MyHomePage> {
           style: TextStyle(fontSize: 18.0),
         ),
         subtitle: Text("${article.by}"),
-        trailing: Icon(Icons.event),
+        trailing: CircleAvatar(
+          child: Text("${article.commentsCount}")
+          ),
         children: <Widget>[
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
 //              Text("${article.commentsCount} comments!"),
-              Text("${article.domain}"),
+              Text("${article.by}"),
               FlatButton(
                 child: Icon(Icons.launch),
                 onPressed: () {},

@@ -12,6 +12,7 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   url_launcher: any
+  nullable: any
 
 dev_dependencies:
   flutter_test:
