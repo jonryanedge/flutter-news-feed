@@ -28,6 +28,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   List<Article> _articles = articles;
+  DateTime pickedDate;
+
+  @override
+  void initState() {
+    super.initState();
+    pickedDate = DateTime.now();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -69,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         subtitle: Text("${article.by}"),
         trailing: CircleAvatar(
-          child: Text("${article.commentsCount}")
+          child: Text("${pickedDate.day}")
           ),
         children: <Widget>[
           Row(
