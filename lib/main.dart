@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 // import 'package:url_launcher/url_launcher.dart';
 import 'src/articles.dart';
 
@@ -30,6 +31,8 @@ class _MyHomePageState extends State<MyHomePage> {
   List<Article> _articles = articles;
   DateTime pickedDate;
 
+  var rando = Random();
+
   @override
   void initState() {
     super.initState();
@@ -40,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(_articles.length.toString()),
+        title: Text(articles.length.toString() + " Stories"),
       ),
       body: RefreshIndicator(
         onRefresh: () async {
@@ -76,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         subtitle: Text("${article.by}"),
         trailing: CircleAvatar(
-          child: Text("${pickedDate.day}")
+          child: Text(rando.nextInt(100).toString()),  //pickedDate.day old
           ),
         children: <Widget>[
           Row(

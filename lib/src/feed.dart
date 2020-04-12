@@ -60,7 +60,7 @@ class Article{
 
 final articles = 
 [
-  new Article(
+  Article(
     by:"dhouston",
     descendants:71,
     id:8863,

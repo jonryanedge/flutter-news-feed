@@ -16,7 +16,7 @@ class Article {
 }
 
 final articles = [
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "jonryanedge.com",
     by: "jonryanedge",
@@ -24,7 +24,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -32,7 +32,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you fuck!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -40,7 +40,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -48,7 +48,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you fuck!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -56,7 +56,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -64,7 +64,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -72,7 +72,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -80,7 +80,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -88,7 +88,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -96,7 +96,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -104,7 +104,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -112,7 +112,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -120,7 +120,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -128,7 +128,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -136,7 +136,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -144,7 +144,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -152,7 +152,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -160,7 +160,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -168,7 +168,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -176,7 +176,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -184,7 +184,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -192,7 +192,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -200,7 +200,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -208,7 +208,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -216,7 +216,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -224,7 +224,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -232,7 +232,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -240,7 +240,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -248,7 +248,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -256,7 +256,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -264,7 +264,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -272,7 +272,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -280,7 +280,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -288,7 +288,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -296,7 +296,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -304,7 +304,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -312,7 +312,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -320,7 +320,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -328,7 +328,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -336,7 +336,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -344,7 +344,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -352,7 +352,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -360,7 +360,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -368,7 +368,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -376,7 +376,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -384,7 +384,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -392,7 +392,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -400,7 +400,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -408,7 +408,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -416,7 +416,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -424,7 +424,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -432,7 +432,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -440,7 +440,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -448,7 +448,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -456,7 +456,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -464,7 +464,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -472,7 +472,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -480,7 +480,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -488,7 +488,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -496,7 +496,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -504,7 +504,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -512,7 +512,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -520,7 +520,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -528,7 +528,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -536,7 +536,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -544,7 +544,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -552,7 +552,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -560,7 +560,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -568,7 +568,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -576,7 +576,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -584,7 +584,7 @@ final articles = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -595,7 +595,7 @@ final articles = [
 ];
 
 final nipples = [
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -603,7 +603,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -611,7 +611,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you fuck!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -619,7 +619,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -627,7 +627,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you fuck!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -635,7 +635,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -643,7 +643,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -651,7 +651,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -659,7 +659,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -667,7 +667,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -675,7 +675,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -683,7 +683,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -691,7 +691,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -699,7 +699,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -707,7 +707,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -715,7 +715,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -723,7 +723,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -731,7 +731,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -739,7 +739,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -747,7 +747,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -755,7 +755,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -763,7 +763,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -771,7 +771,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -779,7 +779,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -787,7 +787,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -795,7 +795,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -803,7 +803,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -811,7 +811,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -819,7 +819,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -827,7 +827,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -835,7 +835,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -843,7 +843,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -851,7 +851,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -859,7 +859,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -867,7 +867,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -875,7 +875,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -883,7 +883,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -891,7 +891,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -899,7 +899,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -907,7 +907,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -915,7 +915,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -923,7 +923,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -931,7 +931,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -939,7 +939,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -947,7 +947,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -955,7 +955,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -963,7 +963,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -971,7 +971,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -979,7 +979,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -987,7 +987,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -995,7 +995,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1003,7 +1003,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1011,7 +1011,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1019,7 +1019,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1027,7 +1027,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1035,7 +1035,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1043,7 +1043,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1051,7 +1051,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1059,7 +1059,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1067,7 +1067,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1075,7 +1075,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1083,7 +1083,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1091,7 +1091,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1099,7 +1099,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1107,7 +1107,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1115,7 +1115,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1123,7 +1123,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1131,7 +1131,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1139,7 +1139,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1147,7 +1147,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1155,7 +1155,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
@@ -1163,7 +1163,7 @@ final nipples = [
     score: 100,
     commentsCount: 77,
   ),
-  new Article(
+  Article(
     text: "Title of an article you might be interested in!",
     domain: "ryznler.com",
     by: "jonryanedge",
