@@ -1,7 +1,9 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'dart:math';
 // import 'package:url_launcher/url_launcher.dart';
 import 'src/articles.dart';
+import 'package:flutter/services.dart' show rootBundle;
 
 void main() => runApp(MyApp());
 
@@ -32,6 +34,9 @@ class _MyHomePageState extends State<MyHomePage> {
   DateTime pickedDate;
 
   var rando = Random();
+  Future<String> _loadJsonFile() async {
+    return await rootBundle.loadString('lib/src/sample.json');
+  }
 
   @override
   void initState() {
