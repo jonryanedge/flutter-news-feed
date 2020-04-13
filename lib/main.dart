@@ -33,6 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   List<Article> _articles = articles;
   DateTime pickedDate;
 
+  String lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus scelerisque nunc id porta gravida. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam nec mauris et enim ornare pellentesque. Nulla vehicula, ex et blandit luctus, mi lectus congue diam, volutpat posuere nisl velit et tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam vehicula congue nulla. Curabitur metus lorem, efficitur quis justo eu, fermentum cursus elit.';
   var rando = Random();
   Future<String> _loadJsonFile() async {
     return await rootBundle.loadString('lib/src/sample.json');
@@ -87,14 +88,22 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Text(rando.nextInt(100).toString()),  //pickedDate.day old
           ),
         children: <Widget>[
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              Text(lorem,
+              maxLines: 4,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: <Widget>[
 //              Text("${article.commentsCount} comments!"),
-              Text("${article.by}"),
-              FlatButton(
-                child: Icon(Icons.launch),
-                onPressed: () {},
+                  Text("${article.by}"),
+                  FlatButton(
+                    child: Icon(Icons.launch),
+                    onPressed: () {},
+                  ),
+                ],
               ),
             ],
           )
