@@ -97,9 +97,15 @@ class _MyHomePageState extends State<MyHomePage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: <Widget>[
-                  Icon(Icons.add_circle),
+                  IconButton(
+                    icon: Icon(Icons.remove_circle),
+                    onPressed: (){},
+                  ),
                   CircleAvatar(child: Text("0")),
-                  Icon(Icons.remove_circle),
+                  IconButton(
+                    icon: Icon(Icons.add_circle),
+                    onPressed: (){},
+                  ),
                 ],
               ),
               Row(
