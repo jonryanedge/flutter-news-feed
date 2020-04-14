@@ -95,6 +95,14 @@ class _MyHomePageState extends State<MyHomePage> {
               maxLines: 4,
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: <Widget>[
+                  Icon(Icons.add_circle),
+                  CircleAvatar(child: Text("0")),
+                  Icon(Icons.remove_circle),
+                ],
+              ),
+              Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
 //              Text("${article.commentsCount} comments!"),
