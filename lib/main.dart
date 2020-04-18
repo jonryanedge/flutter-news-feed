@@ -95,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
               maxLines: 4,
               ),
               Row(
-                mainAxisAlignment: MainAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   IconButton(
                     icon: Icon(Icons.remove_circle),
