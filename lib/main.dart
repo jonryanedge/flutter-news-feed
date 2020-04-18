@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'List App',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.blueGrey,
       ),
       home: MyHomePage(title: 'List App Demo'),
     );
@@ -32,6 +32,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   List<Article> _articles = articles;
   DateTime pickedDate;
+  int tally;
 
   String lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus scelerisque nunc id porta gravida. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam nec mauris et enim ornare pellentesque. Nulla vehicula, ex et blandit luctus, mi lectus congue diam, volutpat posuere nisl velit et tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam vehicula congue nulla. Curabitur metus lorem, efficitur quis justo eu, fermentum cursus elit.';
   var rando = Random();
@@ -43,6 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     pickedDate = DateTime.now();
+    tally = 0;
   }
 
   @override
@@ -85,7 +87,8 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         subtitle: Text("${article.by}"),
         trailing: CircleAvatar(
-          child: Text(rando.nextInt(100).toString()),  //pickedDate.day old
+          child: Text(rando.nextInt(100).toString(),
+          style: TextStyle(fontWeight: FontWeight.bold)),  
           ),
         children: <Widget>[
           Column(
@@ -99,12 +102,20 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: <Widget>[
                   IconButton(
                     icon: Icon(Icons.remove_circle),
-                    onPressed: (){},
+                    onPressed: (){
+                      setState(() {
+                        tally--;
+                      });
+                    },
                   ),
-                  CircleAvatar(child: Text("0")),
+                  CircleAvatar(child: Text(tally.toString(), style: TextStyle(fontWeight: FontWeight.bold))),
                   IconButton(
                     icon: Icon(Icons.add_circle),
-                    onPressed: (){},
+                    onPressed: (){
+                      setState(() {
+                        tally++;
+                      });
+                    },
                   ),
                 ],
               ),
