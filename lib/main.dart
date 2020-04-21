@@ -87,6 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         subtitle: Text("${article.by}"),
         trailing: CircleAvatar(
+          radius: 30,
           child: Text(article.score.toString(),
           style: TextStyle(fontWeight: FontWeight.bold)),  
           ),
