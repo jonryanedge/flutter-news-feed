@@ -29,7 +29,7 @@ final articles = [
     domain: "ryznler.com",
     by: "jonryanedge",
     age: "1 hour",
-    score: 100,
+    score: 90,
     commentsCount: 77,
   ),
   Article(
@@ -37,7 +37,7 @@ final articles = [
     domain: "ryznler.com",
     by: "jonryanedge",
     age: "1 hour",
-    score: 100,
+    score: 80,
     commentsCount: 77,
   ),
   Article(
@@ -45,7 +45,7 @@ final articles = [
     domain: "ryznler.com",
     by: "jonryanedge",
     age: "1 hour",
-    score: 100,
+    score: 70,
     commentsCount: 77,
   ),
   Article(
@@ -53,7 +53,7 @@ final articles = [
     domain: "ryznler.com",
     by: "jonryanedge",
     age: "1 hour",
-    score: 100,
+    score: 60,
     commentsCount: 77,
   ),
   Article(
@@ -61,7 +61,7 @@ final articles = [
     domain: "ryznler.com",
     by: "jonryanedge",
     age: "1 hour",
-    score: 100,
+    score: 50,
     commentsCount: 77,
   ),
   Article(

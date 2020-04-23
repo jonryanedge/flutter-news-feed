@@ -76,6 +76,8 @@ class _MyHomePageState extends State<MyHomePage> {
     //           style: TextStyle(fontSize: 28.0, color: Colors.white)),
     //     ),
     //   );
+
+
     return Padding(
       key: Key(article.hashCode.toString()),
       padding: const EdgeInsets.all(16.0),
@@ -105,6 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     icon: Icon(Icons.remove_circle),
                     onPressed: (){
                       setState(() {
+                        tally = article.score;
                         tally--;
                       });
                     },
@@ -114,7 +117,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     icon: Icon(Icons.add_circle),
                     onPressed: (){
                       setState(() {
-                        tally++;
+                        tally = article.score++;
                       });
                     },
                   ),
